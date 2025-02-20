@@ -5,7 +5,17 @@
     box-sizing: border-box;
   }
 
-
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .product {
+    color: aqua;
+  }
+.home {
+  background-color: blue;
+}
 
   
 /* Responsiveness settings go here: */
