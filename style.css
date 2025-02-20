@@ -17,6 +17,15 @@
   background-color: blue;
 }
 
+.env {
+  width: 50px;
+  height:auto
+}
+.erow {
+  display: flex;
+  justify-content: space-around;
+
+}
   
 /* Responsiveness settings go here: */
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
