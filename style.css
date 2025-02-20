@@ -17,6 +17,15 @@
   background-color: blue;
 }
 
+.s3 {
+  background-color: rgb(231, 221, 229);
+}
+.ps3 {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 .env {
   width: 50px;
   height:auto
