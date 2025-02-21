@@ -51,6 +51,112 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* Section 2 styling */
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 582px;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+
+.hero {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 513px;
+  height: 458px;
+  background-color: #ededed;
+  padding: 22px;
+  margin-right: 65px;
+  margin-bottom: 20px;
+}
+
+.n1Editor {
+  width: 355px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.hero div {
+  width: 378px;
+  height: 205px;
+  padding-left: 10px;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.hero button {
+  width: 195px;
+  height: 51px;
+  background-color: #ffffff;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.demo {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 458px;
+  width: 286px;
+  border-radius: 50px;
+  background-color: #ededed;
+  margin-left: 65px;
+  margin-bottom: 20px;
+  padding: 22px;
+}
+
+.demo h2 {
+  margin-bottom: 22px;
+}
+
+.demo div {
+  margin-bottom: 22px;
+}
+
+.demo button {
+  width: 195px;
+  height: 51px;
+  background-color: #ffffff;
+  border-style: none;
+}
+
+/* Section 4 styling */
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 563px;
+  width: 100%;
+  background-color: #ababab;
+}
+
+.video {
+  height: 340px;
+  width: 715.62px;
+  background-color: #ededed;
+}
+
 .section5 {
   height: 600px;
   width: 100%;
@@ -94,6 +200,45 @@ img {
   justify-self: center;
 }
 
+/* SECTION 6 / LUKAS  */
+
+.section6 {
+  background-color: #ededed;
+  text-align: center;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section6 h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.section6 ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  max-width: 20rem;
+  gap: 2rem;
+
+  & img {
+    max-width: 4rem;
+    height: auto;
+    border-radius: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  & li {
+    text-align: center;
+    max-width: 8ch;
+    margin-bottom: 0.5rem;
+  }
+}
+
 .section7 {
   height: 600px;
   width: 100%;
@@ -121,6 +266,33 @@ img {
   justify-self: center;
 }
 
+/* FOOTER / LUKAS */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 8rem 0rem;
+}
+
+footer img {
+  width: 2.5rem;
+}
+
+#footer-links,
+#social-links {
+  padding: 1% 0rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+footer h3 {
+  font-weight: 400;
+  line-height: 42.19px;
+  font-size: 1.5rem;
+}
 /* Responsiveness settings go here: */
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Extra super small devices (phones, 400px and down) */
