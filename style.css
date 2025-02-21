@@ -1,15 +1,52 @@
-/* Style settings go here */
+/* General style settings go here */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+.s3 {
+  padding-top: 4px;
+  width: 1440px;
+  height: 296px;
+  background-color: rgb(231, 221, 229);
+}
+.ps3 {
+  margin: 40px auto;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.env {
+  width: 138px;
+  height: 110px;
+}
+.erow {
+  display: flex;
+  justify-content: space-around;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
   font-size: 2rem;
   text-align: center;
 }
