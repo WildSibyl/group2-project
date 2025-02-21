@@ -10,10 +10,9 @@
   width: 1440px;
   height: 296px;
   background-color: rgb(231, 221, 229);
-
 }
 .ps3 {
-  margin:40px auto;
+  margin: 40px auto;
   font-size: 18px;
   text-align: center;
   padding-top: 20px;
@@ -26,9 +25,8 @@
 .erow {
   display: flex;
   justify-content: space-around;
-
 }
-  
+
 body {
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -157,6 +155,52 @@ p {
   background-color: #ededed;
 }
 
+/* SECTION 5 */
+
+.section5 {
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 40px 40px 40px;
+  width: 100%;
+  height: 400px;
+}
+.card1 {
+  width: 250px;
+  height: 200px;
+  align-content: center;
+  margin: auto;
+}
+.card1 p {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  justify-self: center;
+}
+
+img {
+  margin: 20px 20px 20px 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+}
+.price img {
+  border-radius: 0;
+  display: block;
+  margin: 40px 40px 130px 50px;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+}
+
 /* SECTION 6 / LUKAS  */
 
 .section6 {
@@ -166,6 +210,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .section6 h2 {
@@ -181,14 +226,63 @@ p {
   justify-content: center;
   max-width: 20rem;
   gap: 2rem;
-}
-.img {
+
+& img {
     max-width: 4rem;
     height: auto;
     border-radius: 100px;
     margin-bottom: 0.5rem;
   }
 
+  & li {
+    text-align: center;
+    max-width: 8ch;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* SECTION 7 */
+.section7 {
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+#prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 40px 40px 40px;
+  width: 100%;
+  height: 400px;
+}
+.price {
+  width: 250px;
+  height: 350px;
+  align-content: center;
+  margin: auto;
+}
+.price p {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  justify-self: center;
+}
+
+/* FOOTER / LUKAS */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 8rem 0rem;
+}
+
+footer img {
+  width: 2.5rem;
+  height: 100%;
   .navbar {
     width:1440px;
     height: 142px;
