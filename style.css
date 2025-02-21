@@ -188,9 +188,9 @@ p {
     border-radius: 100px;
     margin-bottom: 0.5rem;
   }
+
   .navbar {
-    
-    width: 1440px;
+    width:1440px;
     height: 142px;
     background-color: grey;
     list-style: none;
