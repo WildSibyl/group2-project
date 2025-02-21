@@ -11,8 +11,6 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   justify-items: center;
   align-items: center;
 }
@@ -55,9 +53,6 @@ p {
   width: 513px;
   height: 458px;
   background-color: #ededed;
-  padding: 22px;
-  margin-right: 65px;
-  margin-bottom: 20px;
 }
 
 .n1Editor {
@@ -96,8 +91,6 @@ p {
   width: 286px;
   border-radius: 50px;
   background-color: #ededed;
-  margin-left: 65px;
-  margin-bottom: 20px;
   padding: 22px;
 }
 
@@ -147,19 +140,282 @@ p {
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Small devices (portrait tablets and large phones, 600px to 768px) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #c4c4c4;
+  }
+
+  .hero {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 513px;
+    height: 458px;
+    background-color: #ededed;
+    padding: 22px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .demo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 458px;
+    width: 286px;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 22px;
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Medium devices (landscape tablets, 768px to 992px) */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #c4c4c4;
+  }
+
+  .hero {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 513px;
+    height: 458px;
+    background-color: #ededed;
+    padding: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .demo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 458px;
+    width: 286px;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 22px;
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Large devices (laptops/desktops, 992px to 1200px) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+    width: 100%;
+    background-color: #c4c4c4;
+  }
+
+  .hero {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 513px;
+    height: 458px;
+    background-color: #ededed;
+    padding: 22px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+  }
+
+  .n1Editor {
+    width: 355px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  .hero div {
+    width: 378px;
+    height: 205px;
+    padding-left: 10px;
+  }
+
+  .description {
+    padding-top: 20px;
+  }
+
+  .hero button {
+    width: 195px;
+    height: 51px;
+    background-color: #ffffff;
+    border-style: none;
+    margin-bottom: 20px;
+  }
+
+  .demo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 458px;
+    width: 286px;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    padding: 22px;
+  }
+
+  .demo h2 {
+    margin-bottom: 22px;
+  }
+
+  .demo div {
+    margin-bottom: 22px;
+  }
+
+  .demo button {
+    width: 195px;
+    height: 51px;
+    background-color: #ffffff;
+    border-style: none;
+  }
+
+  /* Section 4 styling */
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 563px;
+    width: 100%;
+    background-color: #ababab;
+  }
+
+  .video {
+    height: 340px;
+    width: 715.62px;
+    background-color: #ededed;
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1201px) {
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+    width: 100%;
+    background-color: #c4c4c4;
+  }
+
+  .hero {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 513px;
+    height: 458px;
+    background-color: #ededed;
+    padding: 22px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+  }
+
+  .n1Editor {
+    width: 355px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  .hero div {
+    width: 378px;
+    height: 205px;
+    padding-left: 10px;
+  }
+
+  .description {
+    padding-top: 20px;
+  }
+
+  .hero button {
+    width: 195px;
+    height: 51px;
+    background-color: #ffffff;
+    border-style: none;
+    margin-bottom: 20px;
+  }
+
+  .demo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 458px;
+    width: 286px;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    padding: 22px;
+  }
+
+  .demo h2 {
+    margin-bottom: 22px;
+  }
+
+  .demo div {
+    margin-bottom: 22px;
+  }
+
+  .demo button {
+    width: 195px;
+    height: 51px;
+    background-color: #ffffff;
+    border-style: none;
+  }
+
+  /* Section 4 styling */
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 563px;
+    width: 100%;
+    background-color: #ababab;
+  }
+
+  .video {
+    height: 340px;
+    width: 715.62px;
+    background-color: #ededed;
+  }
 }
